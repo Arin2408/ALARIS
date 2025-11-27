@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/disclaimer/page": "/disclaimer",
+  "/landowners/page": "/landowners",
+  "/landsurvey/page": "/landsurvey",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/projects/page": "/projects",
+  "/services/page": "/services",
+  "/terms/page": "/terms"
+}

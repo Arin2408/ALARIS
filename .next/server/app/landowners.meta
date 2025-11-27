@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/landowners/layout,_N_T_/landowners/page,_N_T_/landowners"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/landowners/__PAGE__",
+    "/landowners",
+    "/_index",
+    "/_head"
+  ]
+}
