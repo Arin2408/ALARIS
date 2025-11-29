@@ -51,7 +51,7 @@ export default function AboutPage() {
     {
       name: t("about.team.kai.name"),
       role: t("about.team.kai.role"),
-      image: "/kai-olufs.png",
+      image: "/Kai-olufs.png",
       bio: t("about.team.kai.bio")
     }
   ]
