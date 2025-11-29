@@ -74,16 +74,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$ALARIS$2f$node_
 ;
 ;
 const metadata = {
-    title: "farmWIND Energy | Your Partner for Sustainable Wind Energy Solutions",
+    title: "ALARIS WIND ENERGY",
     description: "Leading wind energy company in India providing wind farm design, installation, maintenance, and consultancy services. Partner with us for clean, sustainable energy solutions.",
     keywords: "wind energy, wind farm, wind turbines, renewable energy, wind installation, wind consultancy, India, clean energy, sustainable solutions",
     authors: [
         {
-            name: "farmWIND Energy"
+            name: "ALARIS WIND Energy"
         }
     ],
     openGraph: {
-        title: "farmWIND Energy | Sustainable Wind Energy Solutions",
+        title: "ALARIS WIND ENERGY",
         description: "Leading wind energy company in India providing comprehensive wind farm solutions.",
         type: "website"
     },

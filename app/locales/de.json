@@ -1,0 +1,556 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "landowners": "Für Grundstückseigentümer",
+    "projects": "Projekte",
+    "landsurvey": "Flächenprüfung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "kicker": "Nachhaltige Energielösungen",
+    "title": "Ihr Partner für nachhaltige Windenergie-Lösungen",
+    "subtitle": "Wir treiben die weltweite Energiewende mit innovativen Windpark-Lösungen voran. Von der Planung bis zur Umsetzung liefern wir Spitzenleistung in jedem Projekt.",
+    "cta_primary": "Kontakt aufnehmen",
+    "cta_secondary": "Mehr erfahren"
+  },
+  "about1": {
+    "kicker": "Über uns",
+    "title": "Wir leiten die Windenergie-Revolution",
+    "p1": "Bei ALARIS setzen wir uns dafür ein, den Übergang zu sauberer Energie zu beschleunigen. Mit mehr als einem Jahrzehnt Erfahrung haben wir uns als vertrauenswürdiger Partner für Unternehmen, Grundstückseigentümer und Institutionen etabliert, die zuverlässige Windenergielösungen suchen.",
+    "p2": "Unser Team aus erfahrenen Ingenieuren und Projektmanagern sorgt dafür, dass jede Installation die höchsten Qualitäts- und Effizienzstandards erfüllt und dauerhaften Mehrwert für unsere Kunden schafft.",
+    "discover": "Unsere Geschichte entdecken",
+    "imageAlt": "Windpark-Monteure bei der Arbeit"
+  },
+  "about": {
+    "preview": {
+      "kicker": "Über uns",
+      "title": "Wir leiten die Windenergie-Revolution",
+      "p1": "Bei ALARIS setzen wir uns dafür ein, den Übergang zu sauberer Energie zu beschleunigen. Mit mehr als einem Jahrzehnt Erfahrung haben wir uns als vertrauenswürdiger Partner für Unternehmen, Grundstückseigentümer und Institutionen etabliert, die zuverlässige Windenergielösungen suchen.",
+      "p2": "Unser Team aus erfahrenen Ingenieuren und Projektmanagern sorgt dafür, dass jede Installation die höchsten Qualitäts- und Effizienzstandards erfüllt und dauerhaften Mehrwert für unsere Kunden schafft.",
+      "discover": "Unsere Geschichte entdecken",
+      "imageAlt": "Windpark-Monteure bei der Arbeit"
+    },
+    "hero": {
+      "subtitle": "Über uns",
+      "title": "ALARIS — Wer wir sind und was wir tun",
+      "description": "Seit zwei Jahrzehnten engagieren sich die Gesellschafter der farmWIND GmbH für erneuerbare Energien und arbeiten partnerschaftlich mit Grundstückseigentümern zusammen. Als Projektentwickler plant, baut und betreibt die farmWIND GmbH Wind- und Photovoltaikparks. Ziel ist es, eine nachhaltige Stromversorgung in Deutschland mit lokalem Mehrwert zu schaffen. Engagierte Mitarbeiter streben stets nach bestmöglichen Projektergebnissen und halten sich an höchste Qualitäts- und Wirtschaftlichkeitsstandards. Auch unter widrigen äußeren Umständen werden Projekte mit Beharrlichkeit verfolgt — Geduld und Ausdauer sind gefragt. Mit farmWIND GmbH kommen erfahrene Projektentwickler für erneuerbare Energien in Deutschland wieder zusammen."
+    },
+    "teamSection": {
+      "subtitle": "Unser Team",
+      "title": "Führung & Gesellschafter",
+      "description": "Die erfahrenen Fachleute hinter ALARIS."
+    },
+    "team": {
+      "thomas": {
+        "name": "Thomas Griffith",
+        "role": "Partner",
+        "bio": "Thomas Griffith, ausgebildeter Sparkassenbetriebswirt, begann seine Karriere 2003 als Firmenkundenberater und spezialisierte sich ab 2008 auf die Finanzierung von Projekten im Bereich der erneuerbaren Energien, insbesondere Wind- und Solarparks. Mit einer Zertifizierung als Fachberater für regionale Energieentwicklungsprojekte leitet er erfolgreich einen Bürgerwindpark mit 44 Windenergieanlagen und fast 100 MW. Neben seiner Tätigkeit als Geschäftsführer und Partner mehrerer Unternehmen im Bereich erneuerbare Energien ist er seit 2023 geschäftsführender Gesellschafter der Griffith EE Konzept GmbH. Sein Schwerpunkt liegt dabei auf dem kaufmännischen Management sowie der Entwicklung von Wind- und Solarprojekten."
+      },
+      "arneH": {
+        "name": "Dipl. Ing. Arne Henn",
+        "role": "Geschäftsführender Partner",
+        "bio": "Arne Henn schloss 1990 sein Studium an der Hochschule für Angewandte Wissenschaften Hamburg mit einem Masterabschluss in Luftfahrttechnik ab. Nach mehreren Jahren internationaler Erfahrung in der Triebwerksinstandhaltung und -reparatur ist er seit 2000 erfolgreich in der Entwicklung und Umsetzung von Windenergieprojekten im In- und Ausland tätig und hat mehr als 32 Windparks realisiert. Arne Henn leitet verschiedene Unternehmen im Bereich Wind- und Solarenergie."
+      },
+      "carsten": {
+        "name": "Carsten Jensen",
+        "role": "Gesellschafter",
+        "bio": "Carsten Jensen, Landwirt und geprüfter Agrarmeister seit 1990, bewirtschaftet erfolgreich Ackerland und Viehhaltung in Nordfriesland. Seit 2004 ist er zudem als Berater und Projektentwickler im Bereich der erneuerbaren Energien, insbesondere der Windenergie, tätig. Er hat bedeutende Beiträge zur Realisierung von Windenergieprojekten in Schleswig-Holstein und Niedersachsen geleistet und betreibt selbst Windenergieanlagen sowie Photovoltaikanlagen auf Dachflächen. Er verfügt über umfangreiche Erfahrung in der Planung und Umsetzung von Kabeltrassen zur Anbindung von Wind- und PV-Parks an das Stromnetz. Zudem ist er Partner verschiedener Betreibergesellschaften im Bereich erneuerbare Energien."
+      },
+      "kristian": {
+        "name": "Kristian Schachlewitz",
+        "role": "Partner & Prokurist",
+        "bio": "Kristian Schachlewitz begann seine berufliche Laufbahn 2004 in der Immobilienbranche als Entwickler und Bauleiter. Im Jahr 2006 wurde er geschäftsführender Gesellschafter eines Projektentwicklungs- und Investmentunternehmens in Deutschland. 2009 gründete er die Nadeva-Gruppe und leitete deren Geschäftstätigkeit bis 2021. Er verkaufte Nadeva, das mehr als 500 MW an Wind- und Solaranlagen realisiert hatte, an eines der führenden Unternehmen der Branche in Deutschland."
+      },
+      "arneS": {
+        "name": "Dr. Arne Scheschonk",
+        "role": "Gesellschafter",
+        "bio": "Dr. Arne Scheschonk ist seit 2008 als selbstständiger Anwalt tätig und Gründer der CTCAP Holding GmbH. Zuvor war er als Anwalt in Prag tätig, unter anderem bei Bird & Bird, mit dem Schwerpunkt erneuerbare Energien in Osteuropa. Anschließend war er als General Counsel für mehrere Investmentfonds in Luxemburg und Zürich tätig, mit Fokus auf Windenergieprojekte in Nord- und Osteuropa, Kanada und den USA. Darüber hinaus leitete er die Windenergie-Projektentwicklungsabteilung eines großen deutschen Energieunternehmens und begleitete die Entwicklung zahlreicher Windparks in Norddeutschland sowie bedeutender Immobilienprojekte in und um München."
+      },
+      "lorenz": {
+        "name": "Lorenz Peter Jensen",
+        "role": "Gesellschafter",
+        "bio": "Lorenz Peter Jensen war ab 1992 in der Landwirtschaft tätig, bevor er sich ab 1999 auf erneuerbare Energien spezialisierte. Als treibende Kraft hinter dem 2011 entwickelten und gebauten Bürgerwindpark Dagebüll setzte er ein wegweisendes Projekt in der Region um. In seiner Funktion als Geschäftsführer der Reenergiehöfe Nordfriesland führt er erfolgreich mehrere Wind- und Photovoltaikprojekte. Mit umfassender Erfahrung als Projektentwickler und Betreiber verschiedener Anlagen treibt er die Energiewende maßgeblich voran."
+      },
+      "kai": {
+        "name": "Kai Olufs",
+        "role": "Gesellschafter",
+        "bio": "Kai Olufs, Agrarökonom und Inhaber eines landwirtschaftlichen Betriebs seit 2003. Die erste Windenergieanlage wurde 1990 auf seinem eigenen Land projektiert und errichtet. Seit 2003 ist Kai Olufs aktiv in der Standortentwicklung von der Planung bis zur baulichen Umsetzung tätig."
+      }
+    }
+  },
+  "services1": {
+    "kicker": "Unsere Dienstleistungen",
+    "title": "Umfassende Windenergie-Lösungen",
+    "description": "Von der Erstberatung bis zum Betrieb bieten wir End-to-End-Dienstleistungen für Windenergie.",
+    "view_all": "Alle Dienstleistungen anzeigen",
+    "cards": {
+      "planning": {
+        "title": "Planung",
+        "desc": "Maßgeschneiderte Windlösungen, abgestimmt auf die einzigartigen Windmuster und Energiebedürfnisse Ihres Standorts."
+      },
+      "implementation": {
+        "title": "Ausführung & Bau",
+        "desc": "Professionelle Turbineninstallation mit strenger Qualitätskontrolle, die eine optimale Leistung von Anfang an gewährleistet."
+      }
+    }
+  },
+  "landowner1": {
+    "kicker": "Für Grundstückseigentümer",
+    "title": "Verwandeln Sie Ihr Land in eine grüne Einnahmequelle",
+    "p": "Besitzen Sie geeignetes Land? Arbeiten Sie mit uns zusammen, um Windparkprojekte zu entwickeln und langfristige stabile Einnahmen zu erzielen und gleichzeitig zur Erreichung erneuerbarer Energieziele beizutragen.",
+    "cta": "Flächentauglichkeit prüfen",
+    "imageAlt": "Windkraftanlagen auf ländlichem Land"
+  },
+  "cta": {
+    "title": "Bereit, Windkraft zu nutzen?",
+    "p": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung und erfahren Sie, wie Windenergie Ihrem Unternehmen oder Land zugutekommen kann.",
+    "contact": "Kontakt",
+    "assessment": "Flächentauglichkeit"
+  },
+  "services": {
+    "kicker": "Unsere Dienstleistungen",
+    "title": "ALARIS – Ihr Partner von der Idee bis zur Umsetzung",
+    "description": "Von der Erstberatung bis zum laufenden Betrieb bieten wir umfassende Lösungen für Windparks, um Ihre Investition zu maximieren und zu einer nachhaltigen Zukunft beizutragen.",
+    "learnMore": "Mehr erfahren",
+    "process": {
+      "kicker": "Unser Prozess",
+      "title": "Wie wir arbeiten",
+      "description": "Unser optimierter Prozess stellt sicher, dass Ihr Windprojekt termingerecht und im Budget umgesetzt wird.",
+      "consultation": "Beratung",
+      "consultationDesc": "Erstgespräch zur Ermittlung Ihrer Anforderungen und Ziele.",
+      "assessment": "Bewertung",
+      "assessmentDesc": "Detaillierte Standortbewertung und Windressourcenanalyse.",
+      "design": "Entwurf",
+      "designDesc": "Maßgeschneiderte Windparkplanung, optimiert für Ihre Anforderungen.",
+      "delivery": "Ausführung",
+      "deliveryDesc": "Professionelle Installation mit fortlaufender Unterstützung."
+    },
+    "cards": {
+      "planning": {
+        "title": "Planung",
+        "desc": "Unsere erfahrenen Ingenieure erstellen maßgeschneiderte Windparkentwürfe, optimiert für die spezifischen Standortbedingungen, Windmuster und Energieanforderungen. Wir nutzen moderne Simulationstools, um die Energieausbeute zu maximieren.",
+        "features": {
+          "siteAnalysis": "Standortanalyse und Vorplanung",
+          "solarIrradiance": "Analyse der Sonneneinstrahlung (PV)",
+          "windYield": "Windenergiemessung (Wind)",
+          "economicStudy": "Wirtschaftlichkeitsuntersuchung",
+          "siteSecuring": "Standortsicherung, Entwurfsplanung",
+          "gridPlanning": "Planung von Netzanschlussstrecken und Zufahrten",
+          "acquisition": "Übernahme bestehender Windparks",
+          "repowering": "Projektübernahme, Repowering",
+          "citizenParticipation": "Modelle für Bürgerbeteiligung",
+          "municipalParticipation": "Lösungen für kommunale Beteiligung"
+        }
+      },
+      "implementation": {
+        "title": "Ausführung & Bau",
+        "desc": "Von den Fundamentarbeiten bis zur Turbinenmontage sorgen unsere erfahrenen Installationsteams dafür, dass Ihr Windpark nach höchsten Standards mit minimaler Beeinträchtigung gebaut wird.",
+        "features": {
+          "permits": "Einholung der notwendigen Genehmigungen",
+          "tender": "Gestaltung des Ausschreibungsverfahrens",
+          "siteTechnology": "Auswahl standortspezifischer Anlagentechnik",
+          "roadFoundation": "Straßen- und Fundamentbau",
+          "gridCoordination": "Koordination des Netzanschlusses",
+          "acceptance": "Abnahme- und Inbetriebnahmeprozesse",
+          "compliance": "Einhaltung des Bundes-Immissionsschutzgesetzes (BImSchG)",
+          "compensatory": "Ausgleichsmaßnahmen, Finanzierung"
+        }
+      }
+    }  
+  },
+  "landsurvey": {
+  "hero": {
+    "imageAlt": "Flächenprüfung Banner",
+    "title": "Flächenprüfung",
+    "subtitle": "Übermitteln Sie Ihre Flächenangaben und wir prüfen die Eignung für erneuerbare Energien."
+  },
+  "form": {
+    "title": "Flächenerhebungsformular",
+    "energyType": {
+      "label": "Energieart",
+      "placeholder": "Bitte wählen...",
+      "options": {
+        "wind": "Windenergie",
+        "solar": "Photovoltaik (PV)"
+      }
+    },
+    "federalState": {
+      "label": "Bundesland",
+      "placeholder": "Bitte wählen..."
+    },
+    "parcelsQuantity": {
+      "label": "Anzahl der Flurstücke"
+    },
+    "municipality": {
+      "label": "Gemeinde"
+    },
+    "district": {
+      "label": "Kreis / Landkreis"
+    },
+    "selectedParcel": {
+      "label": "Ausgewähltes Flurstück",
+      "placeholder": "Flurstücksstatus",
+      "options": {
+        "parcelExists": "Flächen vorhanden, keine Flurstücknummer",
+        "noParcel": "Kein Korridor"
+      }
+    },
+    "corridor": {
+      "label": "Korridor"
+    },
+    "parcel": {
+      "label": "Flurstück (Fläche)"
+    },
+    "currentUse": {
+      "label": "Aktuelle Nutzung",
+      "placeholder": "Bitte wählen...",
+      "options": {
+        "farmland": "Landwirtschaft",
+        "forest": "Forstwirtschaft",
+        "other": "Andere"
+      }
+    },
+    "ownerConsent": {
+      "label": "Ich bestätige, dass ich Eigentümer oder bevollmächtigt bin, diese Anfrage zur Flächenprüfung einzureichen."
+    },
+    "firstName": { "label": "Vorname" },
+    "lastName": { "label": "Nachname" },
+    "street": { "label": "Straße" },
+    "houseNumber": { "label": "Hausnummer" },
+    "postalCode": { "label": "Postleitzahl" },
+    "location": { "label": "Ort" },
+    "phone": { "label": "Telefonnummer" },
+    "email": { "label": "E-Mail-Adresse" },
+    "comments": {
+      "label": "Kommentare",
+      "placeholder": "Gibt es noch etwas, das Sie uns mitteilen möchten?"
+    },
+    "submit": "Anfrage absenden"
+  },
+  "alert": {
+    "submitted": "Formular erfolgreich übermittelt!"
+  },
+  "cards": {
+    "partner": {
+      "title": "ALARIS Partnerkonzept",
+      "items": {
+        "1": "Pachten war gestern! Der Grundstückseigentümer als Partner",
+        "2": "Maßgeschneiderte und individuelle Konzepte",
+        "3": "Beteiligung an Projektentwicklung und Betrieb",
+        "4": "Offene Kommunikation",
+        "5": "Umsetzung gemeinsamer Ziele",
+        "6": "Kurze Entscheidungswege"
+      }
+    },
+    "knowhow": {
+      "title": "ALARIS Knowhow",
+      "items": {
+        "1": "Kontakte zu Herstellern",
+        "2": "Kontakte zu Lieferanten",
+        "3": "Dienstleister und Anbieter",
+        "4": "Bewertung und Vergabe von Aufträgen"
+      }
+    },
+    "images": {
+      "partnerAlt": "Partner Illustration",
+      "knowhowAlt": "Know-how Illustration"
+    }
+  }
+},
+"contact": {
+    "hero": {
+      "kicker": "Kontakt",
+      "title": "Kontakt aufnehmen",
+      "subtitle": "Haben Sie Fragen zur Windenergie oder möchten Sie Ihr Projekt besprechen? Unser Team hilft Ihnen gern. Kontaktieren Sie uns über einen der folgenden Wege."
+    },
+    "info": {
+      "heading": "Kontaktinformationen",
+      "visit": {
+        "title": "Besuchen Sie uns",
+        "line1": "123 Wind Park, Green Energy Complex",
+        "line2": "Andheri East, Mumbai",
+        "line3": "Maharashtra 400069, Indien"
+      },
+      "call": {
+        "title": "Rufen Sie uns an",
+        "line1": "+91 22 1234 5678",
+        "line2": "+91 98765 43210"
+      },
+      "email": {
+        "title": "Schreiben Sie uns",
+        "line1": "info@ALARIS.in",
+        "line2": "sales@ALARIS.in"
+      },
+      "hours": {
+        "title": "Öffnungszeiten",
+        "line1": "Montag - Freitag: 9:00 - 18:00",
+        "line2": "Samstag: 10:00 - 14:00"
+      }
+    },
+    "location": {
+      "heading": "Unser Standort",
+      "description": "Mumbai, Maharashtra, Indien"
+    },
+    "form": {
+      "heading": "Senden Sie uns eine Nachricht",
+      "subtitle": "Füllen Sie das Formular aus, und wir melden uns innerhalb von 24 Stunden bei Ihnen."
+    }
+  },
+  "contact1": {
+    "form": {
+      "ariaLabel": "Kontaktformular",
+      "sent": {
+        "title": "Nachricht gesendet!",
+        "body": "Vielen Dank für Ihre Nachricht. Unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden."
+      },
+      "name": {
+        "label": "Vollständiger Name *",
+        "placeholder": "Ihr vollständiger Name"
+      },
+      "phone": {
+        "label": "Telefonnummer *",
+        "placeholder": "+91 98765 43210"
+      },
+      "email": {
+        "label": "E-Mail-Adresse *",
+        "placeholder": "Ihre@email.com"
+      },
+      "enquiry": {
+        "label": "Anliegen *",
+        "placeholder": "Anliegen auswählen",
+        "options": {
+          "general": "Allgemeine Anfrage",
+          "quote": "Angebot anfordern",
+          "landowner": "Partnerschaft für Grundstückseigentümer",
+          "career": "Karrierechancen",
+          "media": "Medien / Presse",
+          "other": "Sonstiges"
+        }
+      },
+      "location": {
+        "label": "Ort / Stadt",
+        "placeholder": "Ihre Stadt oder Ihr Ort"
+      },
+      "message": {
+        "label": "Ihre Nachricht *",
+        "placeholder": "Wie können wir Ihnen helfen? Bitte geben Sie Details an."
+      },
+      "button": {
+        "sending": "Senden...",
+        "send": "Nachricht senden"
+      },
+      "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu."
+    }
+  },
+  "footer": {
+    "about": "Ihr vertrauenswürdiger Partner für nachhaltige Windenergielösungen in Indien. Wir treiben eine grünere Zukunft voran – ein Windpark nach dem anderen.",
+    "quickLinks": "Schnellzugriff",
+    "contactTitle": "Kontakt",
+    "contact": {
+      "address": "123 Wind Park, Green Energy Complex, Mumbai, Maharashtra 400001, Indien",
+      "phone": "+91 22 1234 5678",
+      "email": "info@ALARIS.in"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen",
+      "disclaimer": "Haftungsausschluss"
+    },
+    "allRights": "Alle Rechte vorbehalten."
+  },
+  "disclaimer": {
+    "title": "Haftungsausschluss",
+    "lastUpdatedPrefix": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "November 2025",
+    "general": {
+      "title": "Allgemeine Hinweise",
+      "p1": "Die auf dieser Website bereitgestellten Informationen dienen ausschließlich allgemeinen Informationszwecken. Obwohl wir bestrebt sind, die Informationen aktuell und korrekt zu halten, übernehmen wir keinerlei Zusicherungen oder Garantien jeglicher Art, weder ausdrücklich noch stillschweigend, hinsichtlich der Vollständigkeit, Richtigkeit, Zuverlässigkeit, Eignung oder Verfügbarkeit der Informationen, Produkte, Dienstleistungen oder zugehörigen Grafiken auf der Website."
+    },
+    "professional": {
+      "title": "Fachberatung",
+      "p1": "Die Inhalte dieser Website sollen nicht als Ersatz für eine fachliche Beratung dienen. Konkrete Fragen zu Solarinstallationen, Flächeneignung, regulatorischen Anforderungen und finanziellen Aspekten sollten an unser Team oder entsprechende Fachleute gerichtet werden."
+    },
+    "projectEstimates": {
+      "title": "Projektschätzungen",
+      "p1": "Alle auf dieser Website genannten Kostenschätzungen, Energieprognosen oder Renditerechnungen dienen nur zur Veranschaulichung. Tatsächliche Werte können je nach standortspezifischen Bedingungen, Marktbedingungen und anderen Variablen abweichen. Endgültige Schätzungen erfolgen nach einer detaillierten Standortprüfung."
+    },
+    "externalLinks": {
+      "title": "Externe Links",
+      "p1": "Diese Website kann Links zu externen Websites enthalten. Wir haben keinen Einfluss auf deren Inhalt oder Verfügbarkeit und sind nicht verantwortlich für deren Inhalte oder Datenschutzpraktiken."
+    },
+    "images": {
+      "title": "Bilder und Darstellungen",
+      "p1": "Die auf dieser Website gezeigten Bilder dienen der Illustration und müssen nicht tatsächliche Projekte oder Installationen widerspiegeln. Einige Bilder können Stockfotos oder künstlerische Darstellungen sein."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "p1": "Wenn Sie Fragen zu diesem Haftungsausschluss haben, kontaktieren Sie uns bitte unter",
+      "email": "info@ALARIS.in"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdatedPrefix": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "November 2025",
+    "intro": {
+      "title": "1. Einführung",
+      "p1": "ALARIS Wind Energy Pvt. Ltd. („wir“, „uns“ oder „unser“) respektiert Ihre Privatsphäre und verpflichtet sich, Ihre personenbezogenen Daten zu schützen. Diese Datenschutzerklärung erklärt, wie wir Informationen sammeln, verwenden und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen nutzen."
+    },
+    "collect": {
+      "title": "2. Welche Informationen wir sammeln",
+      "p1": "Wir können folgende Arten von Informationen erheben:",
+      "items": {
+        "personal": "Personenbezogene Identifikationsdaten (Name, E-Mail-Adresse, Telefonnummer)",
+        "location": "Standort- und Adressdaten",
+        "landInfo": "Flächen- und Objektinformationen (bei Anfragen von Grundstückseigentümern)",
+        "technical": "Technische Daten (IP-Adresse, Browsertyp, Geräteinformationen)",
+        "usage": "Nutzungsdaten (wie Sie mit unserer Website interagieren)"
+      }
+    },
+    "use": {
+      "title": "3. Wie wir Ihre Informationen verwenden",
+      "p1": "Wir verwenden Ihre Informationen, um:",
+      "items": {
+        "respond": "Auf Ihre Anfragen zu antworten und Kundensupport bereitzustellen",
+        "process": "Anträge auf Partnerschaften mit Grundstückseigentümern zu verarbeiten und zu bewerten",
+        "quotes": "Angebote und Vorschläge für Solarinstallationen zu erstellen",
+        "updates": "Relevante Aktualisierungen über unsere Dienstleistungen zu senden (mit Ihrer Einwilligung)",
+        "improve": "Unsere Website und Dienstleistungen zu verbessern",
+        "legal": "Gesetzlichen Verpflichtungen nachzukommen"
+      }
+    },
+    "security": {
+      "title": "4. Datensicherheit",
+      "p1": "Wir implementieren geeignete technische und organisatorische Maßnahmen, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen."
+    },
+    "rights": {
+      "title": "5. Ihre Rechte",
+      "p1": "Sie haben das Recht:",
+      "items": {
+        "access": "Auf Ihre personenbezogenen Daten zuzugreifen",
+        "correct": "Unrichtige Daten zu berichtigen",
+        "delete": "Die Löschung Ihrer Daten zu verlangen",
+        "withdraw": "Die Einwilligung für Marketingkommunikation zu widerrufen",
+        "complain": "Eine Beschwerde bei einer Aufsichtsbehörde einzureichen"
+      }
+    },
+    "contact": {
+      "title": "6. Kontakt",
+      "p1": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken haben, kontaktieren Sie uns bitte unter:",
+      "emailLabel": "E-Mail",
+      "email": "privacy@ALARIS.in",
+      "phoneLabel": "Telefon",
+      "phone": "+91 22 1234 5678",
+      "addressLabel": "Adresse",
+      "address": "123 Solar Park, Green Energy Complex, Mumbai, Maharashtra 400069, India"
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdatedPrefix": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "November 2025",
+    "acceptance": {
+      "title": "1. Annahme der Bedingungen",
+      "p1": "Durch den Zugriff auf und die Nutzung der ALARIS-Website und -Dienste erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, nutzen Sie bitte unsere Website oder Dienste nicht."
+    },
+    "services": {
+      "title": "2. Dienstleistungen",
+      "p1": "ALARIS bietet Lösungen im Bereich Solarenergie an, einschließlich, aber nicht beschränkt auf: Planung von Solaranlagen, Installation, Wartung, Beratung und Partnerschaften mit Grundstückseigentümern. Alle Dienstleistungen unterliegen spezifischen Vereinbarungen und mit den Kunden besprochenen Bedingungen."
+    },
+    "websiteUse": {
+      "title": "3. Nutzung der Website",
+      "p1": "Bei der Nutzung unserer Website erklären Sie sich damit einverstanden:",
+      "items": {
+        "accurate": "Falsche oder ungenaue Informationen zu vermeiden (Stellen Sie genaue und wahre Angaben bereit)",
+        "unlawful": "Die Website nicht für rechtswidrige Zwecke zu verwenden",
+        "unauthorized": "Nicht zu versuchen, sich unbefugten Zugriff auf unsere Systeme zu verschaffen",
+        "malicious": "Keinen bösartigen Code oder bösartige Inhalte zu übertragen"
+      }
+    },
+    "intellectualProperty": {
+      "title": "4. Geistiges Eigentum",
+      "p1": "Alle Inhalte auf dieser Website, einschließlich Texten, Grafiken, Logos und Bildern, sind Eigentum von ALARIS Energy und durch das Urheber- und Markenrecht geschützt. Sie dürfen Inhalte nicht ohne unsere vorherige schriftliche Zustimmung reproduzieren, verbreiten oder verwenden."
+    },
+    "limitation": {
+      "title": "5. Haftungsbeschränkung",
+      "p1": "ALARIS haftet nicht für indirekte, beiläufige, besondere oder Folgeschäden, die aus der Nutzung unserer Website oder Dienste entstehen. Unsere Haftung ist im größtmöglichen gesetzlich zulässigen Umfang begrenzt."
+    },
+    "governingLaw": {
+      "title": "6. Anwendbares Recht",
+      "p1": "Diese Bedingungen unterliegen dem Recht Indiens und sind nach diesem auszulegen. Alle Streitigkeiten unterliegen der ausschließlichen Zuständigkeit der Gerichte in Mumbai, Maharashtra."
+    },
+    "contact": {
+      "title": "7. Kontakt",
+      "p1": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter legal@ALARIS.in"
+    }
+  },
+  "landowners": {
+    "hero": {
+      "kicker": "Für Grundstückseigentümer",
+      "title": "Verwandeln Sie Ihr Land in eine grüne Einnahmequelle",
+      "subtitle": "Erneuerbare Energien sind untrennbar mit dem Land verbunden, auf dem sie gebaut werden. Für Grundstückseigentümer sind erneuerbare Energien seit langem eine rentable und langfristige Einnahmequelle. Sie bieten hohe Erträge bei minimaler Flächennutzung und unterstützen landwirtschaftliche Betriebe, insbesondere auf weniger ertragreichen Böden.",
+      "cta": "Flächentauglichkeit prüfen",
+      "imageAlt": "Windkraftanlagen auf ländlichem Land"
+    },
+    "requirements": {
+      "kicker": "Flächenanforderungen",
+      "wind": {
+        "title": "Welche Standorte eignen sich für Windkraftanlagen?",
+        "subtitle": "Wir suchen nach bestimmten Merkmalen, um eine optimale Windparkleistung zu gewährleisten. Hier sind die wichtigsten Anforderungen, die wir berücksichtigen:",
+        "imageAlt": "Geeignetes Land für die Entwicklung von Windparks",
+        "farmland": "Ackerland",
+        "pastureland": "Weideland",
+        "grassland": "Grasland",
+        "forest": "Wald",
+        "formerLandfills": "Ehemalige Deponien",
+        "reclaimedMines": "Renaturierte Tagebaue"
+      },
+      "pv": {
+        "title": "Welche Standorte eignen sich für Photovoltaik-Anlagen?",
+        "subtitle": "Wir suchen nach bestimmten Merkmalen, um eine optimale Photovoltaik-Leistung zu gewährleisten. Hier sind die wichtigsten Standorttypen, die wir berücksichtigen:",
+        "imageAlt": "Geeignetes Land für Photovoltaik oder Mischentwicklung",
+        "arablePasture": "Acker- und Weideland",
+        "motorwayRailway": "Autobahnrandstreifen, Bahntrassen",
+        "conversionAreas": "Umwandlungsflächen",
+        "designatedAreas": "Gebiete mit ausgewiesenen Bauflächen"
+      }
+    },
+    "process": {
+      "kicker": "Unser Prozess",
+      "title": "Wie es funktioniert",
+      "subtitle": "Unser einfacher vierstufiger Ablauf, um Ihr Land in ein Windenergie-Asset zu verwandeln.",
+      "submit": {
+        "title": "Details einreichen",
+        "desc": "Füllen Sie unser Online-Formular mit Ihren Flächendaten und Kontaktdaten aus."
+      },
+      "assessment": {
+        "title": "Erstbewertung",
+        "desc": "Unser Team prüft Ihre Einreichung und führt eine erste Wirtschaftlichkeitsprüfung durch."
+      },
+      "siteVisit": {
+        "title": "Vor-Ort-Besichtigung",
+        "desc": "Unsere Ingenieure besuchen Ihr Grundstück für detaillierte Windressourcenerhebungen."
+      },
+      "agreement": {
+        "title": "Vertrag & Entwicklung",
+        "desc": "Bei Eignung finalisieren wir den Pachtvertrag und starten die Projektentwicklung."
+      }
+    },
+    "assessment": {
+      "kicker": "Standortprüfung",
+      "title": "Übermitteln Sie Ihre Flächenangaben",
+      "subtitle": "Füllen Sie das Formular aus, und unser Team prüft die Eignung für die Projektentwicklung. Wir melden uns innerhalb von 48 Stunden.",
+      "documentVerification": {
+        "title": "Dokumentenprüfung",
+        "desc": "Wir informieren Sie nach der Erstprüfung über benötigte Unterlagen."
+      },
+      "personalConsultation": {
+        "title": "Persönliche Beratung",
+        "desc": "Unsere Experten besprechen die Optionen im Detail mit Ihnen."
+      }
+    }
+  }
+}

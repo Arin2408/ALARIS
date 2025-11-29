@@ -1,0 +1,561 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About Us",
+        "landowners": "For Landowners",
+        "projects": "Projects",
+        "landsurvey": "Land Survey",
+        "contact": "Contact"
+    },
+    "hero": {
+        "kicker": "Sustainable Energy Solutions",
+        "title": "Your Partner for Sustainable Wind Energy Solutions",
+        "subtitle": "Powering World green energy revolution with innovative wind farm solutions. From design to deployment, we deliver excellence in every project.",
+        "cta_primary": "Get in Touch",
+        "cta_secondary": "Learn More"
+    },
+    "about1": {
+        "kicker": "About Us",
+        "title": "Leading the Wind Energy Revolution",
+        "p1": "At ALARIS, we are committed to accelerating World transition to clean energy. With over a decade of experience, we have established ourselves as a trusted partner for businesses, landowners, and institutions seeking reliable wind energy solutions.",
+        "p2": "Our team of expert engineers and project managers ensures every installation meets the highest standards of quality and efficiency, delivering long-term value for our clients.",
+        "discover": "Discover Our Story",
+        "imageAlt": "Wind turbine installation engineers at work"
+    },
+    "about": {
+        "preview": {
+            "kicker": "About Us",
+            "title": "Leading the Wind Energy Revolution",
+            "p1": "At ALARIS, we are committed to accelerating World transition to clean energy. With over a decade of experience, we have established ourselves as a trusted partner for businesses, landowners, and institutions seeking reliable wind energy solutions.",
+            "p2": "Our team of expert engineers and project managers ensures every installation meets the highest standards of quality and efficiency, delivering long-term value for our clients.",
+            "discover": "Discover Our Story",
+            "imageAlt": "Wind turbine installation engineers at work"
+        },
+        "hero": {
+            "subtitle": "About Us",
+            "title": "ALARIS — Who We Are and What We Do",
+            "description": "For two decades, the shareholders of farmWIND GmbH have been committed to renewable energy, working in partnership with landowners. As a project developer, farmWIND GmbH plans, builds, and operates wind and photovoltaic parks. Their goal is to create a sustainable electricity supply in Germany with local added value. Dedicated employees consistently strive for the best possible project outcomes, always adhering to the highest quality and economic standards. Even under adverse external circumstances, projects are pursued with perseverance, requiring patience and tenacity. With farmWIND GmbH, established renewable energy project developers in Germany are reuniting."
+        },
+        "teamSection": {
+            "subtitle": "Our Team",
+            "title": "Leadership & Shareholders",
+            "description": "The experienced professionals behind ALARIS."
+        },
+        "team": {
+            "thomas": {
+                "name": "Thomas Griffith",
+                "role": "Partner",
+                "bio": "A trained savings bank business administrator, Thomas Griffith began his career in 2003 as a corporate client advisor and specialized in financing renewable energy projects, particularly wind and solar farms, from 2008 onwards. With a certification as a specialist advisor for regional energy development projects, he successfully manages a community wind farm with 44 wind turbines and almost 100 MW. In addition to his role as managing director and partner of several renewable energy companies, he has been the managing partner of Griffith EE Konzept GmbH since 2023. His focus here is on commercial management and the development of wind and solar projects."
+            },
+            "arneH": {
+                "name": "Dipl. Ing. Arne Henn",
+                "role": "Managing Partner",
+                "bio": "Arne Henn graduated from Hamburg University of Applied Sciences in 1990 with a Master's degree in Aircraft Engineering. After several years of international experience in engine repair and maintenance, Arne Henn has been successfully involved in the development and implementation of wind energy projects both domestically and internationally since 2000, with more than 32 wind farms completed. Arne Henn manages various companies in the wind and solar PV sectors."
+            },
+            "carsten": {
+        "name": "Carsten Jensen",
+        "role": "Shareholder",
+        "bio": "Carsten Jensen, a farmer and certified master farmer since 1990, successfully manages arable land and livestock in North Frisia. Since 2004, he has also been active as a consultant and project developer in the field of renewable energies, particularly wind energy. He has made significant contributions to the realization of wind energy projects in Schleswig-Holstein and Lower Saxony and operates wind turbines and rooftop photovoltaic systems himself. He has extensive experience in the planning and management of cable routes for connecting wind and PV parks to the electricity grid. He is also a partner in various renewable energy operating companies."
+      },
+      "kristian": {
+        "name": "Kristian Schachlewitz",
+        "role": "Partner & Authorized Signatory",
+        "bio": "Kristian Schachlewitz began his career in the real estate industry in 2004 as a developer and construction manager. In 2006, he became a managing partner of a project development and investment company in Germany. In 2009, he founded the Nadeva Group and led its operations until 2021. He sold Nadeva, with more than 500 MW of wind and solar PV projects, to one of the leading companies in this sector in Germany."
+      },
+      "arneS": {
+        "name": "Dr. Arne Scheschonk",
+        "role": "Shareholder",
+        "bio": "Dr. Arne Scheschonk has been a self-employed lawyer since 2008 and founder of CTCAP Holding GmbH. Previously, he was a lawyer in Prague, including at Bird & Bird, specializing in renewable energy in Eastern Europe. He then served as General Counsel for several investment funds in Luxembourg and Zurich, focusing on wind energy projects in Northern and Eastern Europe, Canada, and the USA. He also headed the wind energy project development department of a major German energy company and oversaw the development of numerous wind farms in Northern Germany and larger real estate projects in and around Munich."
+      },
+      "lorenz": {
+        "name": "Lorenz Peter Jensen",
+        "role": "Shareholder",
+        "bio": "Lorenz Peter Jensen has worked in agriculture since 1992, before shifting his focus to renewable energies in 1999. As the driving force behind the Dagebüll community wind farm, developed and built in 2011, he implemented a pioneering project in the region. In his role as Managing Director of Reenergiehöfe Nordfriesland, he successfully manages and operates several wind and photovoltaic projects. With extensive experience as a project developer and operator of various facilities, he is driving the energy transition forward."
+      },
+      "kai": {
+        "name": "Kai Olufs",
+        "role": "Shareholder",
+        "bio": "Kai Olufs, agricultural economist and owner of a farm since 2003. The first wind turbine was developed and erected on his own land in 1990. Since 2003, Kai Olufs has been actively involved in securing the site, from planning to construction."
+      }
+    }
+  },
+  "services1": {
+    "kicker": "Our Services",
+    "title": "Comprehensive Wind Energy Solutions",
+    "description": "From initial consultation to ongoing maintenance, we provide end-to-end wind energy services.",
+    "view_all": "View All Services",
+    "cards": {
+      "planning": {
+        "title": "Planning",
+        "desc": "Custom-engineered wind solutions tailored to your site's unique wind patterns and energy needs."
+      },
+      "implementation": {
+        "title": "Implementation & Construction",
+        "desc": "Professional turbine installation with rigorous quality control ensuring optimal performance from day one."
+      }
+    }
+  },
+  "landowner1": {
+    "kicker": "For Landowners",
+    "title": "Turn Your Land Into a Green Energy Asset",
+    "p": "Own suitable land? Partner with us to develop wind farm projects and earn stable, long-term income while contributing to World renewable energy goals.",
+    "cta": "Check Land Suitability",
+    "imageAlt": "Wind turbines on rural land"
+  },
+  "cta": {
+    "title": "Ready to Harness Wind Power?",
+    "p": "Contact us today for a free consultation and discover how wind energy can benefit your business or land.",
+    "contact": "Contact Us",
+    "assessment": "Site Assessment"
+  },
+  "services": {
+    "kicker": "Our Services",
+    "title": "ALARIS – Your partner from idea to implementation",
+    "description": "From initial consultation to ongoing maintenance, we provide end-to-end wind farm solutions designed to maximize your investment and contribute to a sustainable future.",
+    "learnMore": "Learn More",
+    "process": {
+      "kicker": "Our Process",
+      "title": "How We Work",
+      "description": "Our streamlined process ensures your wind project is delivered on time and within budget.",
+      "consultation": "Consultation",
+      "consultationDesc": "Initial meeting to understand your requirements and goals.",
+      "assessment": "Assessment",
+      "assessmentDesc": "Detailed site evaluation and wind resource analysis.",
+      "design": "Design",
+      "designDesc": "Custom wind farm design optimized for your needs.",
+      "delivery": "Delivery",
+      "deliveryDesc": "Professional installation with ongoing support."
+    },
+    "cards": {
+      "planning": {
+        "title": "Planning",
+        "desc": "Our expert engineers create custom wind farm designs optimized for your specific site conditions, wind patterns, and energy requirements. We utilize advanced simulation tools to maximize energy yield.",
+        "features": {
+          "siteAnalysis": "Site analysis and preliminary planning",
+          "solarIrradiance": "Solar irradiance analysis (PV)",
+          "windYield": "Wind yield measurement (wind)",
+          "economicStudy": "Economic feasibility study",
+          "siteSecuring": "Site securing, Design planning",
+          "gridPlanning": "Planning of grid connection routes and access roads",
+          "acquisition": "Acquisition of existing wind farms",
+          "repowering": "Project acquisition, Repowering",
+          "citizenParticipation": "Citizen participation models",
+          "municipalParticipation": "Municipal participation solutions"
+        }
+      },
+      "implementation": {
+        "title": "Implementation & Construction",
+        "desc": "From foundation work to turbine erection, our experienced installation teams ensure your wind farm is built to the highest standards with minimal disruption to surrounding areas.",
+        "features": {
+          "permits": "Obtaining the necessary permits",
+          "tender": "Structuring the tendering process",
+          "siteTechnology": "Selection of site-specific plant technology",
+          "roadFoundation": "Road and foundation construction",
+          "gridCoordination": "Coordination of grid connection",
+          "acceptance": "Acceptance and commissioning processes",
+          "compliance": "Compliance with Federal Immission Control Act (BImSchG)",
+          "compensatory": "Compensatory measures, Financing"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Wind Energy Journey?",
+      "subtitle": "Contact our team today for a free consultation and customized proposal.",
+      "action": "Get a Free Quote"
+    }
+  },
+  "landsurvey": {
+  "hero": {
+    "imageAlt": "Land Survey Banner",
+    "title": "Land Survey",
+    "subtitle": "Submit your land details and we will assess its suitability for renewable energy projects."
+  },
+  "form": {
+    "title": "Land Survey Form",
+    "energyType": {
+      "label": "Energy type",
+      "placeholder": "Please select...",
+      "options": {
+        "wind": "Wind Energy",
+        "solar": "Photovoltaic (PV)"
+      }
+    },
+    "federalState": {
+      "label": "Federal state",
+      "placeholder": "Please select..."
+    },
+    "parcelsQuantity": {
+      "label": "Number of parcels"
+    },
+    "municipality": {
+      "label": "Municipality"
+    },
+    "district": {
+      "label": "District"
+    },
+    "selectedParcel": {
+      "label": "Selected Parcel",
+      "placeholder": "Parcel status",
+      "options": {
+        "parcelExists": "Hallway exists, no parcel number",
+        "noParcel": "No corridor"
+      }
+    },
+    "corridor": {
+      "label": "Corridor"
+    },
+    "parcel": {
+      "label": "Parcel"
+    },
+    "currentUse": {
+      "label": "Current use",
+      "placeholder": "Please select...",
+      "options": {
+        "farmland": "Agriculture",
+        "forest": "Forestry",
+        "other": "Other"
+      }
+    },
+    "ownerConsent": {
+      "label": "I confirm that I am the owner or authorized person to submit this land audit request."
+    },
+    "firstName": { "label": "First Name" },
+    "lastName": { "label": "Last Name" },
+    "street": { "label": "Street" },
+    "houseNumber": { "label": "House Number" },
+    "postalCode": { "label": "Postal Code" },
+    "location": { "label": "Location" },
+    "phone": { "label": "Phone Number" },
+    "email": { "label": "Email Address" },
+    "comments": {
+      "label": "Comments",
+      "placeholder": "Is there anything else you would like to tell us?"
+    },
+    "submit": "Submit Request"
+  },
+  "alert": {
+    "submitted": "Form submitted successfully!"
+  },
+  "cards": {
+    "partner": {
+      "title": "ALARIS Partner Concept",
+      "items": {
+        "1": "Leasing is a thing of the past! The landowner as a partner",
+        "2": "Tailor-made and individual concepts",
+        "3": "Participation in project development and operation",
+        "4": "Open communication",
+        "5": "Implementation of shared goals",
+        "6": "Short decision-making processes"
+      }
+    },
+    "knowhow": {
+      "title": "ALARIS Knowhow",
+      "items": {
+        "1": "Manufacturer contacts",
+        "2": "Supplier contacts",
+        "3": "Service providers and suppliers",
+        "4": "Evaluation and awarding of contracts"
+      }
+    },
+    "images": {
+      "partnerAlt": "Partner illustration",
+      "knowhowAlt": "Know-how illustration"
+    }
+  }
+},
+"contact": {
+    "hero": {
+      "kicker": "Contact Us",
+      "title": "Get in Touch",
+      "subtitle": "Have questions about wind energy or want to discuss your project? Our team is here to help. Reach out to us through any of the channels below."
+    },
+    "info": {
+      "heading": "Contact Information",
+      "visit": {
+        "title": "Visit Us",
+        "line1": "123 Wind Park, Green Energy Complex",
+        "line2": "Andheri East, Mumbai",
+        "line3": "Maharashtra 400069, India"
+      },
+      "call": {
+        "title": "Call Us",
+        "line1": "+91 22 1234 5678",
+        "line2": "+91 98765 43210"
+      },
+      "email": {
+        "title": "Email Us",
+        "line1": "info@ALARIS.in",
+        "line2": "sales@ALARIS.in"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "line1": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "line2": "Saturday: 10:00 AM - 2:00 PM"
+      }
+    },
+    "location": {
+      "heading": "Our Location",
+      "description": "Mumbai, Maharashtra, India"
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours."
+    }
+  },
+  "contact1": {
+    "form": {
+      "ariaLabel": "Contact form",
+      "sent": {
+        "title": "Message Sent!",
+        "body": "Thank you for reaching out. Our team will get back to you within 24 hours."
+      },
+      "name": {
+        "label": "Full Name *",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone Number *",
+        "placeholder": "+91 98765 43210"
+      },
+      "email": {
+        "label": "Email Address *",
+        "placeholder": "your@email.com"
+      },
+      "enquiry": {
+        "label": "Enquiry Type *",
+        "placeholder": "Select enquiry type",
+        "options": {
+          "general": "General Enquiry",
+          "quote": "Request a Quote",
+          "landowner": "Landowner Partnership",
+          "career": "Career Opportunities",
+          "media": "Media / Press",
+          "other": "Other"
+        }
+      },
+      "location": {
+        "label": "Location / City",
+        "placeholder": "Your city or location"
+      },
+      "message": {
+        "label": "Your Message *",
+        "placeholder": "How can we help you? Please provide details about your enquiry."
+      },
+      "button": {
+        "sending": "Sending...",
+        "send": "Send Message"
+      },
+      "privacy": "By submitting, you agree to our Privacy Policy and consent to be contacted regarding your enquiry."
+    }
+  },
+  "footer": {
+    "about": "Your trusted partner for sustainable wind energy solutions in India. Powering a greener future, one wind farm at a time.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact Us",
+    "contact": {
+      "address": "123 Wind Park, Green Energy Complex, Mumbai, Maharashtra 400001, India",
+      "phone": "+91 22 1234 5678",
+      "email": "info@ALARIS.in"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "disclaimer": "Disclaimer"
+    },
+    "allRights": "All rights reserved."
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "lastUpdatedPrefix": "Last updated:",
+    "lastUpdatedDate": "November 2025",
+    "general": {
+      "title": "General Information",
+      "p1": "The information provided on this website is for general informational purposes only. While we strive to keep the information up to date and accurate, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information, products, services, or related graphics contained on the website."
+    },
+    "professional": {
+      "title": "Professional Advice",
+      "p1": "The content on this website is not intended to be a substitute for professional advice. Specific questions about solar installations, land suitability, regulatory requirements, and financial considerations should be directed to our team or appropriate professionals."
+    },
+    "projectEstimates": {
+      "title": "Project Estimates",
+      "p1": "Any cost estimates, energy projections, or return on investment calculations mentioned on this website are for illustrative purposes only. Actual figures may vary based on site-specific conditions, market factors, and other variables. Final estimates will be provided after detailed site assessment."
+    },
+    "externalLinks": {
+      "title": "External Links",
+      "p1": "This website may contain links to external websites. We do not have control over the content or availability of these sites and are not responsible for their content or privacy practices."
+    },
+    "images": {
+      "title": "Images and Representations",
+      "p1": "Images shown on this website are for representational purposes and may not reflect actual projects or installations. Some images may be stock photographs or artist renderings."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "p1": "If you have any questions about this disclaimer, please contact us at",
+      "email": "info@ALARIS.in"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdatedPrefix": "Last updated:",
+    "lastUpdatedDate": "November 2025",
+    "intro": {
+      "title": "1. Introduction",
+      "p1": "ALARIS Wind Energy Pvt. Ltd. (\"we,\" \"our,\" or \"us\") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or use our services."
+    },
+    "collect": {
+      "title": "2. Information We Collect",
+      "p1": "We may collect the following types of information:",
+      "items": {
+        "personal": "Personal identification information (name, email address, phone number)",
+        "location": "Location and address details",
+        "landInfo": "Land and property information (for landowner enquiries)",
+        "technical": "Technical data (IP address, browser type, device information)",
+        "usage": "Usage data (how you interact with our website)"
+      }
+    },
+    "use": {
+      "title": "3. How We Use Your Information",
+      "p1": "We use your information to:",
+      "items": {
+        "respond": "Respond to your enquiries and provide customer support",
+        "process": "Process and evaluate landowner partnership applications",
+        "quotes": "Provide quotes and proposals for solar installations",
+        "updates": "Send relevant updates about our services (with your consent)",
+        "improve": "Improve our website and services",
+        "legal": "Comply with legal obligations"
+      }
+    },
+    "security": {
+      "title": "4. Data Security",
+      "p1": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction."
+    },
+    "rights": {
+      "title": "5. Your Rights",
+      "p1": "You have the right to:",
+      "items": {
+        "access": "Access your personal data",
+        "correct": "Correct inaccurate data",
+        "delete": "Request deletion of your data",
+        "withdraw": "Withdraw consent for marketing communications",
+        "complain": "Lodge a complaint with a supervisory authority"
+      }
+    },
+    "contact": {
+      "title": "6. Contact Us",
+      "p1": "If you have any questions about this privacy policy or our data practices, please contact us at:",
+      "emailLabel": "Email",
+      "email": "privacy@ALARIS.in",
+      "phoneLabel": "Phone",
+      "phone": "+91 22 1234 5678",
+      "addressLabel": "Address",
+      "address": "123 Solar Park, Green Energy Complex, Mumbai, Maharashtra 400069, India"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdatedPrefix": "Last updated:",
+    "lastUpdatedDate": "November 2025",
+    "acceptance": {
+      "title": "1. Acceptance of Terms",
+      "p1": "By accessing and using the ALARIS website and services, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our website or services."
+    },
+    "services": {
+      "title": "2. Services",
+      "p1": "ALARIS provides solar energy solutions including but not limited to: solar plant design, installation, maintenance, consultancy, and landowner partnership programs. All services are subject to specific agreements and terms discussed with clients."
+    },
+    "websiteUse": {
+      "title": "3. Website Use",
+      "p1": "When using our website, you agree to:",
+      "items": {
+        "accurate": "Provide accurate and truthful information",
+        "unlawful": "Not use the website for any unlawful purpose",
+        "unauthorized": "Not attempt to gain unauthorized access to our systems",
+        "malicious": "Not transmit any malicious code or content"
+      }
+    },
+    "intellectualProperty": {
+      "title": "4. Intellectual Property",
+      "p1": "All content on this website, including text, graphics, logos, and images, is the property of ALARIS Energy and is protected by intellectual property laws. You may not reproduce, distribute, or use any content without our prior written permission."
+    },
+    "limitation": {
+      "title": "5. Limitation of Liability",
+      "p1": "ALARIS shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our website or services. Our liability is limited to the maximum extent permitted by applicable law."
+    },
+    "governingLaw": {
+      "title": "6. Governing Law",
+      "p1": "These terms shall be governed by and construed in accordance with the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra."
+    },
+    "contact": {
+      "title": "7. Contact",
+      "p1": "For any questions regarding these terms, please contact us at legal@ALARIS.in"
+    }
+  },
+  "landowners": {
+    "hero": {
+      "kicker": "For Landowners",
+      "title": "Transform Your Land Into a Green Energy Asset",
+      "subtitle": "Renewable energies are inextricably linked to the land on which they are built. For landowners, renewable energies have long been recognized as a profitable and long-term source of income. They offer high yields with minimal land use, thus providing a crucial support for any agricultural operation.",
+      "cta": "Check Land Suitability",
+      "imageAlt": "Wind turbines on rural land"
+    },
+    "requirements": {
+      "kicker": "Land Requirements",
+      "wind": {
+        "title": "Which locations are suitable for wind turbines?",
+        "subtitle": "We look for specific characteristics to ensure optimal wind farm performance. Here are the key requirements we consider:",
+        "imageAlt": "Suitable land for wind farm development",
+        "farmland": "Farmland",
+        "pastureland": "Pastureland",
+        "grassland": "Grassland",
+        "forest": "Forest",
+        "formerLandfills": "Former landfills",
+        "reclaimedMines": "Reclaimed open-cast mines"
+      },
+      "pv": {
+        "title": "Which locations are suitable for photovoltaic systems?",
+        "subtitle": "We look for specific characteristics to ensure optimal photovoltaic performance. Here are the key site types we consider:",
+        "imageAlt": "Suitable land for photovoltaic or mixed development",
+        "arablePasture": "Arable land and pasture",
+        "motorwayRailway": "Motorway shoulders, railway lines",
+        "conversionAreas": "Conversion areas",
+        "designatedAreas": "Areas with designated building areas"
+      }
+    },
+    "process": {
+      "kicker": "Our Process",
+      "title": "How It Works",
+      "subtitle": "Our simple four-step process to turn your land into a wind energy asset.",
+      "submit": {
+        "title": "Submit Your Details",
+        "desc": "Fill out our online form with your land details and contact information."
+      },
+      "assessment": {
+        "title": "Initial Assessment",
+        "desc": "Our team reviews your submission and conducts a preliminary feasibility check."
+      },
+      "siteVisit": {
+        "title": "Site Visit",
+        "desc": "Our engineers visit your land to perform detailed wind resource surveys and assessments."
+      },
+      "agreement": {
+        "title": "Agreement & Development",
+        "desc": "If suitable, we finalize the lease agreement and begin project development."
+      }
+    },
+    "assessment": {
+      "kicker": "Site Assessment",
+      "title": "Submit Your Land Details",
+      "subtitle": "Fill out the form with your land details, and our team will evaluate its suitability for wind farm development. We'll get back to you within 48 hours.",
+      "documentVerification": {
+        "title": "Document Verification",
+        "desc": "We'll guide you on required documents after initial review."
+      },
+      "personalConsultation": {
+        "title": "Personal Consultation",
+        "desc": "Our experts will discuss your options in detail."
+      }
+    }
+  }
+}

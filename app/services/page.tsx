@@ -1,53 +1,64 @@
+// app/services/page.tsx
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Wind, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-
-const services = [
-  {
-    icon: Wind,
-    title: "Planning",
-    image: "/3.jpg",
-    description:
-      "Our expert engineers create custom wind farm designs optimized for your specific site conditions, wind patterns, and energy requirements. We utilize advanced simulation tools to maximize energy yield.",
-    features: [
-      "Site analysis and preliminary planning",
-      "Solar irradiance analysis (PV)",
-      "Wind yield measurement (wind)",
-      "Economic feasibility study",
-      "Site securing, Design planning",
-      "Planning of grid connection routes and access roads",
-      "Acquisition of existing wind farms",
-      "Project acquisition, Repowering",
-      "Citizen participation models",
-      "Municipal participation solutions",
-    ],
-  },
-]
-
-const services1 = [
-  {
-    icon: Zap,
-    title: "Implementation & Construction",
-    image: "/2.jpg",
-    description:
-      "From foundation work to turbine erection, our experienced installation teams ensure your wind farm is built to the highest standards with minimal disruption to surrounding areas.",
-    features: [
-      "Obtaining the necessary permits",
-      "Structuring the tendering process",
-      "Selection of site-specific plant technology",
-      "Road and foundation construction",
-      "Coordination of grid connection",
-      "Acceptance and commissioning processes",
-      "Compliance with Federal Immission Control Act (BImSchG)",
-      "Compensatory measures, Financing",
-    ],
-  },
-]
+import { useTranslation } from "@/app/i18n-provider" // adjust path if needed
 
 export default function ServicesPage() {
+  const { t } = useTranslation()
+
+  const services = [
+    {
+      icon: Wind,
+      titleKey: "services.cards.planning.title",
+      image: "/3.jpg",
+      descriptionKey: "services.cards.planning.desc",
+      featuresKeys: [
+        "services.cards.planning.features.siteAnalysis",
+        "services.cards.planning.features.solarIrradiance",
+        "services.cards.planning.features.windYield",
+        "services.cards.planning.features.economicStudy",
+        "services.cards.planning.features.siteSecuring",
+        "services.cards.planning.features.gridPlanning",
+        "services.cards.planning.features.acquisition",
+        "services.cards.planning.features.repowering",
+        "services.cards.planning.features.citizenParticipation",
+        "services.cards.planning.features.municipalParticipation",
+      ],
+    },
+  ]
+
+  const services1 = [
+    {
+      icon: Zap,
+      titleKey: "services.cards.implementation.title",
+      image: "/2.jpg",
+      descriptionKey: "services.cards.implementation.desc",
+      featuresKeys: [
+        "services.cards.implementation.features.permits",
+        "services.cards.implementation.features.tender",
+        "services.cards.implementation.features.siteTechnology",
+        "services.cards.implementation.features.roadFoundation",
+        "services.cards.implementation.features.gridCoordination",
+        "services.cards.implementation.features.acceptance",
+        "services.cards.implementation.features.compliance",
+        "services.cards.implementation.features.compensatory",
+      ],
+    },
+  ]
+
+  const processSteps = [
+    { step: "01", titleKey: "services.process.consultation", descKey: "services.process.consultationDesc" },
+    { step: "02", titleKey: "services.process.assessment", descKey: "services.process.assessmentDesc" },
+    { step: "03", titleKey: "services.process.design", descKey: "services.process.designDesc" },
+    { step: "04", titleKey: "services.process.delivery", descKey: "services.process.deliveryDesc" },
+  ]
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -56,13 +67,12 @@ export default function ServicesPage() {
       <section className="relative pt-32 pb-20 bg-secondary">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-medium text-primary mb-2 uppercase tracking-wider">Our Services</p>
+            <p className="text-sm font-medium text-primary mb-2 uppercase tracking-wider">{t("services.kicker")}</p>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-              ALARIS – Your partner from idea to implementation
+              {t("services.title")}
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From initial consultation to ongoing maintenance, we provide end-to-end wind farm solutions designed to
-              maximize your investment and contribute to a sustainable future.
+              {t("services.description")}
             </p>
           </div>
         </div>
@@ -72,7 +82,7 @@ export default function ServicesPage() {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {services.map((service) => (
-            <div key={service.title} className="grid lg:grid-cols-2 gap-12 items-center">
+            <div key={service.titleKey} className="grid lg:grid-cols-2 gap-12 items-center">
 
               {/* LEFT — CONTENT */}
               <div>
@@ -80,33 +90,28 @@ export default function ServicesPage() {
                   <service.icon className="h-7 w-7 text-primary" />
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{service.title}</h2>
-                <p className="text-muted-foreground leading-relaxed mb-6">{service.description}</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{t(service.titleKey)}</h2>
+                <p className="text-muted-foreground leading-relaxed mb-6">{t(service.descriptionKey)}</p>
 
                 <ul className="space-y-3 mb-6">
-                  {service.features.map((feature) => (
-                    <li key={feature} className="flex items-start gap-3">
+                  {service.featuresKeys.map((fk) => (
+                    <li key={fk} className="flex items-start gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
-                      <span className="text-foreground">{feature}</span>
+                      <span className="text-foreground">{t(fk)}</span>
                     </li>
                   ))}
                 </ul>
 
                 <Button variant="outline" asChild>
                   <Link href="/contact">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                    {t("services.learnMore")} <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
 
               {/* RIGHT — IMAGE */}
               <div className="relative h-[500px] rounded-lg overflow-hidden">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  fill
-                  className="object-cover"
-                />
+                <Image src={service.image} alt={t(service.titleKey)} fill className="object-cover" />
               </div>
             </div>
           ))}
@@ -117,16 +122,11 @@ export default function ServicesPage() {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {services1.map((service1) => (
-            <div key={service1.title} className="grid lg:grid-cols-2 gap-12 items-center">
+            <div key={service1.titleKey} className="grid lg:grid-cols-2 gap-12 items-center">
 
               {/* LEFT — IMAGE */}
               <div className="relative h-[500px] rounded-lg overflow-hidden">
-                <Image
-                  src={service1.image}
-                  alt={service1.title}
-                  fill
-                  className="object-cover"
-                />
+                <Image src={service1.image} alt={t(service1.titleKey)} fill className="object-cover" />
               </div>
 
               {/* RIGHT — CONTENT */}
@@ -135,21 +135,21 @@ export default function ServicesPage() {
                   <service1.icon className="h-7 w-7 text-primary" />
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{service1.title}</h2>
-                <p className="text-muted-foreground leading-relaxed mb-6">{service1.description}</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{t(service1.titleKey)}</h2>
+                <p className="text-muted-foreground leading-relaxed mb-6">{t(service1.descriptionKey)}</p>
 
                 <ul className="space-y-3 mb-6">
-                  {service1.features.map((feature) => (
-                    <li key={feature} className="flex items-start gap-3">
+                  {service1.featuresKeys.map((fk) => (
+                    <li key={fk} className="flex items-start gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
-                      <span className="text-foreground">{feature}</span>
+                      <span className="text-foreground">{t(fk)}</span>
                     </li>
                   ))}
                 </ul>
 
                 <Button variant="outline" asChild>
                   <Link href="/contact">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                    {t("services.learnMore")} <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -163,24 +163,17 @@ export default function ServicesPage() {
       <section className="py-24 bg-secondary">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-sm font-medium text-primary mb-2 uppercase tracking-wider">Our Process</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">How We Work</h2>
-            <p className="text-muted-foreground">
-              Our streamlined process ensures your wind project is delivered on time and within budget.
-            </p>
+            <p className="text-sm font-medium text-primary mb-2 uppercase tracking-wider">{t("services.process.kicker")}</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">{t("services.process.title")}</h2>
+            <p className="text-muted-foreground">{t("services.process.description")}</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { step: "01", title: "Consultation", desc: "Initial meeting to understand your requirements and goals." },
-              { step: "02", title: "Assessment", desc: "Detailed site evaluation and wind resource analysis." },
-              { step: "03", title: "Design", desc: "Custom wind farm design optimized for your needs." },
-              { step: "04", title: "Delivery", desc: "Professional installation with ongoing support." },
-            ].map((item) => (
+            {processSteps.map((item) => (
               <div key={item.step} className="bg-card p-6 rounded-lg border border-border">
                 <span className="text-4xl font-bold text-primary/30">{item.step}</span>
-                <h3 className="text-xl font-semibold text-card-foreground mt-4 mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.desc}</p>
+                <h3 className="text-xl font-semibold text-card-foreground mt-4 mb-2">{t(item.titleKey)}</h3>
+                <p className="text-sm text-muted-foreground">{t(item.descKey)}</p>
               </div>
             ))}
           </div>
@@ -188,21 +181,21 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-primary">
+      {/* <section className="py-24 bg-primary">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4 text-balance">
-            Ready to Start Your Wind Energy Journey?
+            {t("services.cta.title")}
           </h2>
           <p className="text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Contact our team today for a free consultation and customized proposal.
+            {t("services.cta.subtitle")}
           </p>
           <Button size="lg" variant="secondary" asChild>
             <Link href="/contact">
-              Get a Free Quote <ArrowRight className="ml-2 h-4 w-4" />
+              {t("services.cta.action")} <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

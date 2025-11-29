@@ -1,7 +1,1007 @@
-[00:00:00.776] Server  LOG      ✓ Ready in 558ms
-[00:00:21.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.861] Browser WARN    Image with src "/wind-turbines-on-rural-indian-farmland-countryside.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.711] Server  LOG      ✓ Ready in 484ms
+[00:00:06.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.996] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.996] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:06.996] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764434931655}
+[00:00:19.340] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.517] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:19.517] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:19.517] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764434944176}
+[00:00:24.540] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:24.540] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landsurvey color: rgb(120, 120, 120) color: inherit {"dp":"/landsurvey","o":"http://localhost:3000/landsurvey","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764434949182}
+[00:02:13.056] Server  LOG      ✓ Compiled in 83ms
+[00:02:36.841] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435081497}
+[00:07:46.459] Server  LOG      ✓ Compiled in 149ms
+[00:07:47.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 98 column 4
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 98 column 4
+    at ?
+      94 |         "title": "Implementation & Construction",
+      95 |         "desc": "Professional turbine installation with rigorous quality control ensuring optimal performance from day one."
+      96 |       }
+      97 |     }
+         |    v
+      98 +   }.
+         |    ^
+      99 |   }
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:07:48.743] Server  LOG      ✓ Compiled in 30ms
+[00:07:49.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 99 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 99 column 3
+    at ?
+      95 |         "desc": "Professional turbine installation with rigorous quality control ensuring optimal performance from day one."
+      96 |       }
+      97 |     }
+      98 |   },
+         |   v
+      99 +   }
+         |   ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:07:50.960] Server  LOG      ✓ Compiled in 36ms
+[00:07:51.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 100 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 100 column 3
+    at ?
+      96 |       }
+      97 |     }
+      98 |   },
+      99 |   
+         |   v
+     100 +   }
+         |   ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:07:52.327] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:07:52.484] Server  LOG      ✓ Compiled in 53ms
+[00:07:52.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.336] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:53.336] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:53.336] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435397483}
+[00:08:02.791] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:02.791] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landsurvey color: rgb(120, 120, 120) color: inherit {"dp":"/landsurvey","o":"http://localhost:3000/landsurvey","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435407347}
+[00:08:53.296] Server  LOG      ✓ Compiled in 74ms
+[00:08:54.327] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 163 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 163 column 1
+    at ?
+     159 |         }
+     160 |       }
+     161 |     }  
+     162 |   },
+         | v
+     163 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:08:54.943] Server  LOG      ✓ Compiled in 39ms
+[00:08:55.327] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 164 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 164 column 1
+    at ?
+     160 |       }
+     161 |     }  
+     162 |   },
+     163 |   
+         | v
+     164 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:08:56.276] Server  LOG      ✓ Compiled in 43ms
+[00:08:57.327] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: EOF while parsing an object at line 261 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: EOF while parsing an object at line 261 column 1
+    at ?
+     257 |       "partnerAlt": "Partner Illustration",
+     258 |       "knowhowAlt": "Know-how Illustration"
+     259 |     }
+     260 |   }
+         | v
+     261 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:08:59.784] Server  LOG      ✓ Compiled in 36ms
+[00:09:00.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: EOF while parsing an object at line 262 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: EOF while parsing an object at line 262 column 1
+    at ?
+     258 |       "knowhowAlt": "Know-how Illustration"
+     259 |     }
+     260 |   }
+     261 |   
+         | v
+     262 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:09:02.379] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:09:02.521] Server  LOG      ✓ Compiled in 42ms
+[00:09:02.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:03.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:03.328] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landsurvey","route":"/landsurvey"}
+[00:09:03.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landsurvey color: rgb(120, 120, 120) color: inherit {"dp":"/landsurvey","o":"http://localhost:3000/landsurvey","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435467512}
+[00:09:06.275] Browser WARN    Image with src "/4.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:21.861] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:21.861] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
-[00:00:21.861] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764287252112}
+[00:12:51.478] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:55.340] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435700038}
+[00:14:20.629] Server  LOG      ✓ Compiled in 86ms
+[00:14:21.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 261 column 2
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 261 column 2
+    at ?
+     257 |       "partnerAlt": "Partner Illustration",
+     258 |       "knowhowAlt": "Know-how Illustration"
+     259 |     }
+     260 |   }
+         |  v
+     261 + }"landowner": {
+         |  ^
+     262 |     "kicker": "For Landowners",
+     263 |     "title": "Turn Your Land Into a Green Energy Asset",
+     264 |     "p": "Own suitable land? Partner with us to develop wind farm projects and earn stable, long-term income while contributing to World renewable energy goals.",
+     265 |     "cta": "Check Land Suitability",
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:14:29.191] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:14:29.340] Server  LOG      ✓ Compiled in 42ms
+[00:14:29.687] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:30.336] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:30.336] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[00:14:30.336] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435794540}
+[00:14:33.547] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:14:33.665] Server  LOG      ✓ Compiled in 46ms
+[00:14:33.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:34.331] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:34.332] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[00:14:34.332] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435798646}
+[00:14:43.335] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:14:43.460] Server  LOG      ✓ Compiled in 29ms
+[00:14:43.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:44.333] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:44.333] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[00:14:44.333] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435808502}
+[00:15:36.156] Server  LOG      ✓ Compiled in 48ms
+[00:15:36.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 112 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 112 column 3
+    at ?
+     108 |     "p": "Contact us today for a free consultation and discover how wind energy can benefit your business or land.",
+     109 |     "contact": "Contact Us",
+     110 |     "assessment": "Site Assessment"
+     111 |   }
+         |   v
+     112 +   "landsurvey": {
+         |   ^
+     113 |   "hero": {
+     114 |     "imageAlt": "Land Survey Banner",
+     115 |     "title": "Land Survey",
+     116 |     "subtitle": "Submit your land details and we will assess its suitability for renewable energy projects."
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:15:37.593] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:15:37.810] Server  LOG      ✓ Compiled in 28ms
+[00:15:37.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:38.335] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:38.335] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[00:15:38.335] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435862825}
+[00:15:51.716] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:15:51.716] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435876414}
+[00:16:41.557] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:41.700] Server  LOG      ✓ Compiled in 58ms
+[00:16:41.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:42.069] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:42.069] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:16:42.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435926769}
+[00:16:55.940] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:16:55.940] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435940638}
+[00:17:00.961] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435945658}
+[00:17:31.192] Server  LOG      ✓ Compiled in 55ms
+[00:17:37.437] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764435982134}
+[00:22:10.922] Server  LOG      ✓ Compiled in 64ms
+[00:22:11.326] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 212 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 212 column 3
+    at ?
+     208 |     }
+     209 |   }
+     210 | },
+     211 | 
+         |   v
+     212 +   }
+         |   ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:22:13.436] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:22:13.599] Server  LOG      ✓ Compiled in 30ms
+[00:22:13.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:14.330] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:14.330] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:22:14.330] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764436258676}
+[00:22:20.564] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:22:20.565] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764436265243}
+[00:22:48.474] Server  LOG      ✓ Compiled in 69ms
+[00:22:49.327] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 263 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 263 column 1
+    at ?
+     259 |     }
+     260 |   }
+     261 | },
+     262 | 
+         | v
+     263 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:22:49.536] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:22:49.650] Server  LOG      ✓ Compiled in 49ms
+[00:22:49.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:50.329] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:50.329] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:22:50.329] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764436294731}
+[00:25:00.203] Server  LOG      ✓ Compiled in 83ms
+[00:29:56.755] Server  LOG      ✓ Compiled in 93ms
+[00:30:43.252] Server  LOG      ✓ Compiled in 50ms
+[00:30:44.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 251 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 251 column 1
+    at ?
+     247 |       "subtitle": "Fill out the form below and we'll get back to you within 24 hours."
+     248 |     }
+     249 |   },
+     250 |   
+         | v
+     251 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:30:44.382] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:30:44.528] Server  LOG      ✓ Compiled in 25ms
+[00:30:44.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:45.332] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:45.332] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:30:45.332] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764436769592}
+[00:31:27.429] Server  LOG      ✓ Compiled in 63ms
+[00:31:28.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 302 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 302 column 1
+    at ?
+     298 |       "subtitle": "Füllen Sie das Formular aus, und wir melden uns innerhalb von 24 Stunden bei Ihnen."
+     299 |     }
+     300 |   },
+     301 |   
+         | v
+     302 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:31:28.603] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:31:28.733] Server  LOG      ✓ Compiled in 62ms
+[00:31:28.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:29.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:31:29.329] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:31:29.329] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764436813762}
+[00:32:04.042] Server  LOG      ✓ Compiled in 62ms
+[00:33:58.320] Server  LOG      ✓ Compiled in 105ms
+[00:33:58.330] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[00:33:58.330] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[00:33:59.331] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[00:33:59.332] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[00:34:19.726] Server  LOG      ✓ Compiled in 77ms
+[00:34:20.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 297 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 297 column 1
+    at ?
+     293 |       "privacy": "By submitting, you agree to our Privacy Policy and consent to be contacted regarding your enquiry."
+     294 |     }
+     295 |   },
+     296 |   
+         | v
+     297 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:34:21.016] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:34:21.126] Server  LOG      ✓ Compiled in 66ms
+[00:34:21.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:22.332] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:22.332] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:34:22.332] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764436986198}
+[00:34:38.591] Server  LOG      ✓ Compiled in 59ms
+[00:34:39.329] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 347 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 347 column 1
+    at ?
+     343 |       },
+     344 |       "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu."
+     345 |     }
+     346 |   },
+         | v
+     347 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:34:39.842] Server  LOG      ✓ Compiled in 51ms
+[00:34:40.326] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 348 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 348 column 1
+    at ?
+     344 |       "privacy": "Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu."
+     345 |     }
+     346 |   },
+     347 |   
+         | v
+     348 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:34:41.190] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:34:41.324] Server  LOG      ✓ Compiled in 44ms
+[00:34:41.520] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:42.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:42.328] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:34:42.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437006348}
+[00:35:03.541] Server  LOG      ✓ Compiled in 51ms
+[00:43:35.178] Server  LOG      ✓ Compiled in 152ms
+[00:43:59.686] Server  LOG      ✓ Compiled in 63ms
+[00:44:00.328] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 314 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 314 column 1
+    at ?
+     310 |     },
+     311 |     "allRights": "All rights reserved."
+     312 |   },
+     313 |   
+         | v
+     314 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:44:00.818] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:00.953] Server  LOG      ✓ Compiled in 57ms
+[00:44:01.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:02.327] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:02.327] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:44:02.327] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437566046}
+[00:44:21.828] Server  LOG      ✓ Compiled in 62ms
+[00:44:22.327] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 364 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 364 column 1
+    at ?
+     360 |       "disclaimer": "Haftungsausschluss"
+     361 |     },
+     362 |     "allRights": "Alle Rechte vorbehalten."
+     363 |   },
+         | v
+     364 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:44:22.840] Server  LOG      ✓ Compiled in 31ms
+[00:44:23.327] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 365 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 365 column 1
+    at ?
+     361 |     },
+     362 |     "allRights": "Alle Rechte vorbehalten."
+     363 |   },
+     364 |   
+         | v
+     365 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:44:23.943] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:44:24.076] Server  LOG      ✓ Compiled in 39ms
+[00:44:24.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:25.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:25.328] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:44:25.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437589113}
+[00:44:37.834] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:44:37.834] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/disclaimer color: rgb(120, 120, 120) color: inherit {"dp":"/disclaimer","o":"http://localhost:3000/disclaimer","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437602516}
+[00:50:05.168] Server  LOG      ✓ Compiled in 84ms
+[00:50:05.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 343 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 343 column 1
+    at ?
+     339 |       "p1": "If you have any questions about this disclaimer, please contact us at",
+     340 |       "email": "info@ALARIS.in"
+     341 |     }
+     342 |   },
+         | v
+     343 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:50:08.175] Server  LOG      ✓ Compiled in 22ms
+[00:50:08.326] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 344 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 344 column 1
+    at ?
+     340 |       "email": "info@ALARIS.in"
+     341 |     }
+     342 |   },
+     343 |   
+         | v
+     344 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:50:09.429] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:09.460] Server  LOG      ✓ Compiled in 45ms
+[00:50:09.819] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:10.337] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:10.337] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/disclaimer","route":"/disclaimer"}
+[00:50:10.337] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/disclaimer color: rgb(120, 120, 120) color: inherit {"dp":"/disclaimer","o":"http://localhost:3000/disclaimer","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437934642}
+[00:50:16.419] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:50:16.419] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/privacy color: rgb(120, 120, 120) color: inherit {"dp":"/privacy","o":"http://localhost:3000/privacy","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437941099}
+[00:50:41.972] Server  LOG      ✓ Compiled in 72ms
+[00:50:42.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 394 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 394 column 1
+    at ?
+     390 |       "p1": "Wenn Sie Fragen zu diesem Haftungsausschluss haben, kontaktieren Sie uns bitte unter",
+     391 |       "email": "info@ALARIS.in"
+     392 |     }
+     393 |   },
+         | v
+     394 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:50:43.134] Server  LOG      ✓ Compiled in 31ms
+[00:50:43.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 395 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 395 column 1
+    at ?
+     391 |       "email": "info@ALARIS.in"
+     392 |     }
+     393 |   },
+     394 |   
+         | v
+     395 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:50:45.423] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:45.553] Server  LOG      ✓ Compiled in 46ms
+[00:50:45.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:46.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:46.328] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/privacy","route":"/privacy"}
+[00:50:46.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/privacy color: rgb(120, 120, 120) color: inherit {"dp":"/privacy","o":"http://localhost:3000/privacy","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764437970510}
+[00:51:21.653] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:51:21.653] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/terms color: rgb(120, 120, 120) color: inherit {"dp":"/terms","o":"http://localhost:3000/terms","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438006333}
+[00:57:49.229] Server  LOG      ✓ Compiled in 95ms
+[00:57:50.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 401 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 401 column 1
+    at ?
+     397 |       "address": "123 Solar Park, Green Energy Complex, Mumbai, Maharashtra 400069, India"
+     398 |     }
+     399 |   },
+     400 |   
+         | v
+     401 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:57:50.450] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:57:50.585] Server  LOG      ✓ Compiled in 41ms
+[00:57:50.821] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:51.330] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:57:51.331] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/terms","route":"/terms"}
+[00:57:51.331] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/terms color: rgb(120, 120, 120) color: inherit {"dp":"/terms","o":"http://localhost:3000/terms","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438395648}
+[00:58:17.258] Server  LOG      ✓ Compiled in 75ms
+[00:58:18.272] Server  LOG      ✓ Compiled in 43ms
+[00:58:19.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 451 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 451 column 1
+    at ?
+     447 |       "addressLabel": "Adresse",
+     448 |       "address": "123 Solar Park, Green Energy Complex, Mumbai, Maharashtra 400069, India"
+     449 |     }
+     450 |   },
+         | v
+     451 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:58:19.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 452 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 452 column 1
+    at ?
+     448 |       "address": "123 Solar Park, Green Energy Complex, Mumbai, Maharashtra 400069, India"
+     449 |     }
+     450 |   },
+     451 |   
+         | v
+     452 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[00:58:19.546] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:58:19.569] Server  LOG      ✓ Compiled in 63ms
+[00:58:19.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:20.326] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:20.326] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/terms","route":"/terms"}
+[00:58:20.326] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/terms color: rgb(120, 120, 120) color: inherit {"dp":"/terms","o":"http://localhost:3000/terms","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438424703}
+[00:59:21.660] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:59:21.660] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438486345}
+[00:59:34.861] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438499470}
+[01:01:13.932] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landsurvey color: rgb(120, 120, 120) color: inherit {"dp":"/landsurvey","o":"http://localhost:3000/landsurvey","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438598617}
+[01:01:47.213] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438631820}
+[01:03:50.230] Server  LOG      ✓ Compiled in 55ms
+[01:03:51.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 168 column 3
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 168 column 3
+    at ?
+     164 |       "subtitle": "Contact our team today for a free consultation and customized proposal.",
+     165 |       "action": "Get a Free Quote"
+     166 |     }
+     167 |   }
+         |   v
+     168 +   "landsurvey": {
+         |   ^
+     169 |   "hero": {
+     170 |     "imageAlt": "Land Survey Banner",
+     171 |     "title": "Land Survey",
+     172 |     "subtitle": "Submit your land details and we will assess its suitability for renewable energy projects."
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[01:03:52.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:03:52.167] Server  LOG      ✓ Compiled in 48ms
+[01:03:52.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:53.327] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:03:53.327] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services","route":"/services"}
+[01:03:53.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438757441}
+[01:03:54.119] Browser WARN    Image with src "/3.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:04:40.139] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:04:40.139] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438804824}
+[01:04:47.686] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438812370}
+[01:04:51.458] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landsurvey color: rgb(120, 120, 120) color: inherit {"dp":"/landsurvey","o":"http://localhost:3000/landsurvey","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438816125}
+[01:05:10.074] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764438834745}
+[01:05:39.386] Server  LOG      ✓ Compiled in 66ms
+[01:05:41.510] Server  LOG      ✓ Compiled in 31ms
+[01:05:43.239] Server  LOG      ✓ Compiled in 43ms
+[01:05:48.437] Server  LOG      ✓ Compiled in 36ms
+[01:11:46.740] Server  LOG      ✓ Compiled in 227ms
+[01:12:08.963] Browser ERROR   uncaughtError: ReferenceError: FileText is not defined
+[01:13:04.368] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:05.327] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:13:05.327] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[01:13:05.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764439309212}
+[01:14:36.294] Browser WARN    Image with src "/wind-turbines-on-rural-indian-farmland-countryside.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:15:03.551] Server  LOG      ✓ Compiled in 87ms
+[01:15:35.370] Server  LOG      ✓ Compiled in 77ms
+[01:15:36.328] Browser ERROR   ./Downloads/ALARIS/app/locales/de.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 491 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/de.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 491 column 1
+    at ?
+     487 |       "p1": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter legal@ALARIS.in"
+     488 |     }
+     489 |   },
+     490 |   
+         | v
+     491 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/de.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[01:15:36.615] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/de.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:15:36.749] Server  LOG      ✓ Compiled in 46ms
+[01:15:36.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:37.329] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:15:37.329] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[01:15:37.329] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764439461729}
+[01:16:25.952] Server  LOG      ✓ Compiled in 79ms
+[01:16:26.327] Browser ERROR   ./Downloads/ALARIS/app/locales/en.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: trailing comma at line 496 column 1
+
+Debug info:
+- An error occurred while generating the chunk item [project]/Downloads/ALARIS/app/locales/en.json (json)
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: trailing comma at line 496 column 1
+    at ?
+     492 |       "p1": "For any questions regarding these terms, please contact us at legal@ALARIS.in"
+     493 |     }
+     494 |   },
+     495 |   
+         | v
+     496 + }
+         | ^
+
+Import trace:
+  Client Component SSR:
+    ./Downloads/ALARIS/app/locales/en.json
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Client Component SSR]
+    ./Downloads/ALARIS/app/i18n-provider.tsx [Server Component]
+    ./Downloads/ALARIS/app/layout.tsx [Server Component]
+[01:16:26.929] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Downloads/ALARIS/app/locales/en.json (json) changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:16:27.072] Server  LOG      ✓ Compiled in 37ms
+[01:16:27.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:28.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:16:28.328] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/landowners","route":"/landowners"}
+[01:16:28.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764439512067}
+[01:17:46.464] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/landowners#assessment-form. Falling back to browser navigation. {}
+[01:18:10.157] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/landowners#assessment-form. Falling back to browser navigation. {}
+[01:18:41.455] Server  LOG      ✓ Compiled in 110ms
+[01:19:06.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:06.991] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:19:06.991] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:19:06.991] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764439671650}
+[01:19:10.598] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:19:10.598] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764439675224}
+[01:19:18.532] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/landowners color: rgb(120, 120, 120) color: inherit {"dp":"/landowners","o":"http://localhost:3000/landowners","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764439683190}

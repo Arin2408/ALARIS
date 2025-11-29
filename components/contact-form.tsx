@@ -1,3 +1,4 @@
+// components/contact-form.tsx
 "use client"
 
 import type React from "react"
@@ -9,15 +10,16 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { CheckCircle } from "lucide-react"
+import { useTranslation } from "@/app/i18n-provider" 
 
 export function ContactForm() {
+  const { t } = useTranslation()
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsLoading(true)
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500))
     setIsLoading(false)
     setIsSubmitted(true)
@@ -29,71 +31,73 @@ export function ContactForm() {
         <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
           <CheckCircle className="h-8 w-8 text-primary" />
         </div>
-        <h3 className="text-xl font-semibold text-card-foreground mb-2">Message Sent!</h3>
+        <h3 className="text-xl font-semibold text-card-foreground mb-2">
+          {t("contact1.form.sent.title")}
+        </h3>
         <p className="text-muted-foreground">
-          Thank you for reaching out. Our team will get back to you within 24 hours.
+          {t("contact1.form.sent.body")}
         </p>
       </div>
     )
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6" aria-label={t("contact1.form.ariaLabel")}>
       <div className="grid md:grid-cols-2 gap-4">
         <div className="space-y-2">
-          <Label htmlFor="name">Full Name *</Label>
-          <Input id="name" name="name" required placeholder="Your full name" />
+          <Label htmlFor="name">{t("contact1.form.name.label")}</Label>
+          <Input id="name" name="name" required placeholder={t("contact1.form.name.placeholder")} />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="phone">Phone Number *</Label>
-          <Input id="phone" name="phone" type="tel" required placeholder="+91 98765 43210" />
+          <Label htmlFor="phone">{t("contact1.form.phone.label")}</Label>
+          <Input id="phone" name="phone" type="tel" required placeholder={t("contact1.form.phone.placeholder")} />
         </div>
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email">Email Address *</Label>
-        <Input id="email" name="email" type="email" required placeholder="your@email.com" />
+        <Label htmlFor="email">{t("contact1.form.email.label")}</Label>
+        <Input id="email" name="email" type="email" required placeholder={t("contact1.form.email.placeholder")} />
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="enquiry-type">Enquiry Type *</Label>
+        <Label htmlFor="enquiry-type">{t("contact1.form.enquiry.label")}</Label>
         <Select name="enquiry-type" required>
           <SelectTrigger>
-            <SelectValue placeholder="Select enquiry type" />
+            <SelectValue placeholder={t("contact1.form.enquiry.placeholder")} />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="general">General Enquiry</SelectItem>
-            <SelectItem value="quote">Request a Quote</SelectItem>
-            <SelectItem value="landowner">Landowner Partnership</SelectItem>
-            <SelectItem value="career">Career Opportunities</SelectItem>
-            <SelectItem value="media">Media / Press</SelectItem>
-            <SelectItem value="other">Other</SelectItem>
+            <SelectItem value="general">{t("contact1.form.enquiry.options.general")}</SelectItem>
+            <SelectItem value="quote">{t("contact1.form.enquiry.options.quote")}</SelectItem>
+            <SelectItem value="landowner">{t("contact1.form.enquiry.options.landowner")}</SelectItem>
+            <SelectItem value="career">{t("contact1.form.enquiry.options.career")}</SelectItem>
+            <SelectItem value="media">{t("contact1.form.enquiry.options.media")}</SelectItem>
+            <SelectItem value="other">{t("contact1.form.enquiry.options.other")}</SelectItem>
           </SelectContent>
         </Select>
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="location">Location / City</Label>
-        <Input id="location" name="location" placeholder="Your city or location" />
+        <Label htmlFor="location">{t("contact1.form.location.label")}</Label>
+        <Input id="location" name="location" placeholder={t("contact1.form.location.placeholder")} />
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message">Your Message *</Label>
+        <Label htmlFor="message">{t("contact1.form.message.label")}</Label>
         <Textarea
           id="message"
           name="message"
           rows={5}
           required
-          placeholder="How can we help you? Please provide details about your enquiry."
+          placeholder={t("contact1.form.message.placeholder")}
         />
       </div>
 
       <Button type="submit" className="w-full" disabled={isLoading}>
-        {isLoading ? "Sending..." : "Send Message"}
+        {isLoading ? t("contact1.form.button.sending") : t("contact1.form.button.send")}
       </Button>
 
       <p className="text-xs text-muted-foreground text-center">
-        By submitting, you agree to our Privacy Policy and consent to be contacted regarding your enquiry.
+        {t("contact1.form.privacy")}
       </p>
     </form>
   )
